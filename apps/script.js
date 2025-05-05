@@ -344,7 +344,7 @@ function renderLeaderboard(leaderboard) {
     
         const editButton = row.querySelector('.editButton');
         const deleteButton = row.querySelector('.deleteButton');
-        const password = "boobs"; // Replace with your desired password
+        const password = "password2"; // Replace with desired password
 
         function promptPassword() {
             return prompt("Please enter the password:");
